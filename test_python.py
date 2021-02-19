@@ -1,6 +1,12 @@
-a = int(input("Enter a number:"))
+a = int(input(""))
+b = str(input(""))
+c = int(input(""))
 
-if(a == 0):
-    print("It is a zero.")
+if(b == "+"):
+    print(a+c)
+elif(b == "-"):
+    print(a-c)
+elif(b == "*"):
+    print(a*c)
 else:
-    print("It is not a zero.")
+    print(a/c)
