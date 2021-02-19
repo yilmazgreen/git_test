@@ -1,4 +1,4 @@
-a = int(input())
+a = int(input("Enter a number:"))
 
 if(a == 0):
     print("It is a zero.")
